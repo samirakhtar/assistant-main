@@ -1,0 +1,23 @@
+{
+  "name": "assistant-be",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.11.4",
+    "assemblyai": "^4.5.0",
+    "axios": "^1.7.2",
+    "cohere-ai": "^7.10.6",
+    "drizzle-orm": "^0.31.2",
+    "hono": "^4.4.9",
+    "ioredis": "^5.4.1",
+    "postgres": "^3.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "drizzle-kit": "^0.22.7",
+    "tsx": "^4.7.1",
+    "typescript": "^5.5.3"
+  }
+}
